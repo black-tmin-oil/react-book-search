@@ -13,7 +13,8 @@ const BookList = () => {
     
     const fetching = useSelector(state => state.books.isFetching)
     const totalItems = useSelector(state => state.books.totalItems)
-    if (fetching) return <div className={'loader'}><Loader/></div>;
+    if (fetching) return <div className={'loader'}><Loader/></div>
+    if (!books) return <div className='errorMessage'>some error happend, try one more time</div>
 
 
     return (
