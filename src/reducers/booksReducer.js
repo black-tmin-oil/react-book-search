@@ -43,7 +43,6 @@ export default function(state = INITIAL_STATE, action) {
       return {
         ...state,
         totalItems: action.payload.data.totalItems,
-        filteredItems: action.payload.data.items,
         items: action.payload.data.items,
         
         error: false,
