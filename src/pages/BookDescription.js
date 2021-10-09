@@ -34,7 +34,7 @@ export default function BookDescription() {
               ...prevState,                      
                 title: bookInStore.volumeInfo.title,
                 description: bookInStore.volumeInfo.description,
-                img: bookInStore.volumeInfo.imageLinks.thumbnail,
+                img: bookInStore.volumeInfo.imageLinks ? bookInStore.volumeInfo.imageLinks.thumbnail : null,
                 authors: bookInStore.volumeInfo.authors,
                 categories: bookInStore.volumeInfo.categories
           }));
