@@ -1,0 +1,51 @@
+.bookDetails {
+    display: flex;
+}
+.bookDetails > div {
+    display: inline-block;
+    padding: 1em;
+
+}
+
+  
+  .backButtonBlock {
+    height: 50px;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .backButton {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    height: 50px;
+    font-size: 23px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 60px;
+    border-right: 1px solid #e1e1e1;
+    position: relative;
+    transition: .2s;
+  }
+
+  .imgBlock {
+    background-color: #e1e1e1;
+  }
+
+  
+  .categories {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 35px;
+  }
+  
+  .authors {
+    color: #878787;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 30px;
+  
+  }
+  

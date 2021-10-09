@@ -1,0 +1,28 @@
+.barContainer {
+  text-align: center;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+  height: 37px;
+}
+
+.labelWrapper {
+  color: white;
+  font-size: 20px;
+  font-weight: 20;
+  padding: 0 0 0 30px;
+}
+
+.selectorsWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+
+  @media (max-width: 700px) {
+    flex-flow: column;
+    align-items: center;
+  }
+}

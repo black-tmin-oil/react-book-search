@@ -1,0 +1,30 @@
+.cartContainer {
+    width: 250px; 
+    background-color: #f3f2f1;
+    padding: 25px 15px 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  
+  .imageWrapper {
+    min-height: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    transition: 0.3s;
+  
+  }
+  
+  .categories, .authors {
+    color: #878787;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  
+  .categories {
+    margin-bottom: 14px;
+    text-decoration: underline;
+  }

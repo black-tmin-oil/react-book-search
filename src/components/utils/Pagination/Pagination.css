@@ -1,0 +1,25 @@
+
+.paginationWrapper {
+height: 50px;
+border-bottom: 1px solid #e1e1e1;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 50px;
+}
+
+.paginationButton {
+text-decoration: none;
+cursor: pointer;
+color: black;
+background-color: #f3f2f1;
+height: 50px;
+font-size: 20px;
+font-weight: 200;
+display: flex;
+align-items: center;
+padding: 20px;
+border: 1px solid #e1e1e1;
+position: relative;
+transition: .2s;
+}

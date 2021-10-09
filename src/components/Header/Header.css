@@ -1,0 +1,16 @@
+.headerContainer {
+    padding: 30px 100px;
+    background: url("../../assets/back.jpeg") no-repeat center;
+    background-size: cover;
+  }
+  
+  .title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 0 0 35px;
+  
+    @media (max-width: 450px) {
+      font-size: 35px;
+    }
+  }
