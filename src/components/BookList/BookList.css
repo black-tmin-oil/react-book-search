@@ -31,6 +31,12 @@
   justify-content: center;
 }
 
+.errorMessage {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
 .totalItems {
   text-align: center;
   font-size: 15px;
